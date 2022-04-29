@@ -256,7 +256,7 @@ mod:hook(WwiseWorld, "trigger_event", function(func, wwise_world, event, arg1, a
         return func(wwise_world, event, arg1, arg2)
     end
     if arg1 then
-        return func(wwise_world, event, arg2)
+        return func(wwise_world, event, arg1)
     end
     if arg2 then
         return func(wwise_world, event, arg2)
