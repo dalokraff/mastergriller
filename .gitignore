@@ -39,3 +39,7 @@ luac.out
 *.x86_64
 *.hex
 
+*.mod_bundle
+bundleV2/*
+*.processed
+
