@@ -1,0 +1,23 @@
+mod = [
+	"mastergriller"
+]
+
+package = [
+	"resource_packages/mastergriller/mastergriller"
+]
+
+lua = [
+	"scripts/mods/mastergriller/*"
+]
+
+unit = [
+  "units/*"
+]
+
+texture = [
+  "textures/*"
+]
+
+wwise_dep = [
+  "wwise/*"
+]

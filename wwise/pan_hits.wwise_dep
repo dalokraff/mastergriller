@@ -1,0 +1,9 @@
+
+win32 = {
+	banks = [
+		"wwise/pan_hits"
+	]
+	metadata = "wwise/project"
+	streams = [
+	]
+}

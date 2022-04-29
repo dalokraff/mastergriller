@@ -1,0 +1,50 @@
+data = {
+    // mat_slots = {
+    //     slot1 = "mg_pan_unchained",
+    // }
+
+    // // mat_to_use = "units/weapons/player/wpn_brw_crowbill_01/wpn_brw_crowbill_01_3p"
+
+    // mat_list = {
+    //     slot1 = "units/beings/player/bright_wizard_unchained/skins/black_and_gold/mtr_outfit_black_and_gold"
+    // }
+
+    // num_mats = 1
+	mat_slots = {
+        slot1 = "mgpan",
+    }
+
+    mat_to_use = "units/weapons/player/wpn_empire_handgun_02_t2/wpn_empire_handgun_02_t2_3p"
+
+    colors = {
+        slot1 = "textures/mgpan_color",
+        // slot1 = "textures/unch_bod_d",
+        
+    }
+    normals = {
+        slot1 = "textures/mgpan_nr",
+        // slot1 = "textures/unch_bod_n",
+    }
+    MABs = {
+       slot1 = "textures/mgpan_maob",
+    //    slot1 = "textures/unch_bod_s",
+    }
+
+    color_slot = "texture_map_c0ba2942" 
+    norm_slot = "texture_map_59cd86b9"
+    MAB_slot = "texture_map_0205ba86"
+	
+
+}
+
+renderables = {
+	"mg_pan" = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	},
+}
