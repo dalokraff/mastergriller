@@ -223,8 +223,8 @@ end)
 
 mod:hook(WwiseWorld, "trigger_event", function(func, wwise_world, event, arg1, arg2)
     local sounds = {
-        sword_1h_hit_statics = "pan_impact03",
-        Play_ct_drum_slam_kill = "pan_melee01",
+        sword_1h_hit_statics = "pan_melee_new01",
+        Play_ct_drum_slam_kill = "pan_melee_new01",
     }
     if Managers.player then
         local player = Managers.player:local_player()

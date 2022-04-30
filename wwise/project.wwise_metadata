@@ -21,6 +21,7 @@ banks = {
 			"pan_impact01"
 			"pan_impact02"
 			"pan_impact03"
+			"pan_melee_new01"
 			"pan_melee01"
 			"pan_melee02"
 			"pan_melee03"
@@ -65,6 +66,13 @@ events = {
 		attenuation_max = 0
 		duration_max = 1.198413
 		duration_min = 1.198413
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	pan_melee_new01 = {
+		attenuation_max = 0
+		duration_max = 0.679184
+		duration_min = 0.679184
 		duration_type = "OneShot"
 		positioning = "2D"
 	}
