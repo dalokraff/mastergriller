@@ -8,4 +8,5 @@ events = [
 	"pan_melee02"
 	"pan_melee03"
 	"pan_melee04"
+	"rand_pan"
 ]

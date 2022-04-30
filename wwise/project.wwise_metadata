@@ -26,6 +26,7 @@ banks = {
 			"pan_melee02"
 			"pan_melee03"
 			"pan_melee04"
+			"rand_pan"
 		]
 	}
 }
@@ -35,18 +36,18 @@ buses = [
 ]
 events = {
 	ayaya = {
-		attenuation_max = 0
+		attenuation_max = 500
 		duration_max = 56.02066
 		duration_min = 56.02066
 		duration_type = "OneShot"
-		positioning = "2D"
+		positioning = "3D"
 	}
 	ganbare = {
-		attenuation_max = 0
+		attenuation_max = 500
 		duration_max = 2
 		duration_min = 2
 		duration_type = "OneShot"
-		positioning = "2D"
+		positioning = "3D"
 	}
 	pan_impact01 = {
 		attenuation_max = 0
@@ -70,11 +71,11 @@ events = {
 		positioning = "2D"
 	}
 	pan_melee_new01 = {
-		attenuation_max = 0
+		attenuation_max = 500
 		duration_max = 0.679184
 		duration_min = 0.679184
 		duration_type = "OneShot"
-		positioning = "2D"
+		positioning = "3D"
 	}
 	pan_melee01 = {
 		attenuation_max = 0
@@ -103,6 +104,13 @@ events = {
 		duration_min = 0.643809
 		duration_type = "OneShot"
 		positioning = "2D"
+	}
+	rand_pan = {
+		attenuation_max = 500
+		duration_max = 56.02066
+		duration_min = 0.679184
+		duration_type = "OneShot"
+		positioning = "3D"
 	}
 }
 parameters = [
