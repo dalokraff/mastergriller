@@ -221,3 +221,13 @@ mod:hook_safe(ActionSweep,'_play_environmental_effect' ,function (self, weapon_r
         local sound = WwiseWorld.trigger_event(wwise_world, event, unit)
     end
 end)
+
+mod:hook_safe(ActionSweep,'_play_character_impact' ,function (self, is_server, attacker_unit, hit_unit, breed, hit_position, hit_zone_name, current_action, damage_profile, target_index, power_level, attack_direction, blocking, boost_curve_multiplier, is_critical_strike, backstab_multiplier)
+    local unit = self.weapon_unit
+    if Unit.get_data(unit, 'unit_name') == 'units/gold_pan' then
+        local world = Managers.world:world("level_world")
+        local wwise_world = Wwise.wwise_world(world)
+        local event = "pan_melee_new01"
+        local sound = WwiseWorld.trigger_event(wwise_world, event, unit)
+    end
+end)
